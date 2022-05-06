@@ -56,7 +56,7 @@ public class GamePanel extends JPanel implements Runnable{
 	public void setUpGame() {
 		aSetter.setObject();
 		
-		playMusic(0);
+//		playMusic(0);
 	}
 	
 	public void zoomInOut(int i) {
@@ -147,21 +147,21 @@ public class GamePanel extends JPanel implements Runnable{
 		g2.dispose();
 	}
 	
-	public void playMusic(int i) {
-		
-		music.setFile(i);
-		music.play();
-		music.loop();
-	}
-	
-	public void stopMusic() {
-
-		music.stop();
-	}
-	
-	public void playSE(int i) {
-		
-		se.setFile(i);
-		se.play();
-	}
+//	public void playMusic(int i) {
+//		
+//		music.setFile(i);
+//		music.play();
+//		music.loop();
+//	}
+//	
+//	public void stopMusic() {
+//
+//		music.stop();
+//	}
+//	
+//	public void playSE(int i) {
+//		
+//		se.setFile(i);
+//		se.play();
+//	}
 }
